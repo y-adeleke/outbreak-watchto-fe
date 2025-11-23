@@ -205,7 +205,7 @@ export function OutbreakExplorer() {
         <CardHeader className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           <div>
             <CardTitle>Explore outbreaks</CardTitle>
-            <CardDescription>Filter, inspect, and remediate outbreak metadata pulled from the ASP.NET Core API.</CardDescription>
+            <CardDescription>Filter, inspect, and remediate outbreak metadata.</CardDescription>
           </div>
           <Dialog open={createOpen} onOpenChange={(open) => setCreateOpen(open)}>
             <DialogTrigger asChild>

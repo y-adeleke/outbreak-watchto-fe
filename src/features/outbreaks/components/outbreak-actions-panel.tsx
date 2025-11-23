@@ -189,9 +189,7 @@ export function OutbreakActionsPanel() {
     <Card className="border-2 border-blue-200 bg-white shadow-xl">
       <CardHeader>
         <CardTitle className="text-2xl">HTTP client playground</CardTitle>
-        <CardDescription>
-          Each tab below issues a live request against the ASP.NET Core OutbreaksController using our shared HttpClient wrapper. All six required HTTP verbs are wired up.
-        </CardDescription>
+        <CardDescription>Each tab below issues a live request against the OutbreaksController using our shared HttpClient wrapper. All six required HTTP verbs are wired up.</CardDescription>
       </CardHeader>
       <CardContent>
         <Tabs defaultValue="get-all">

@@ -32,7 +32,7 @@ export function Hero() {
             </div>
             <div className="rounded-2xl border border-cyan-200 bg-white p-5 shadow-sm">
               <p className="text-sm text-muted-foreground">APIs exposed</p>
-              <p className="text-3xl font-semibold">3+</p>
+              <p className="text-3xl font-semibold">15+</p>
               <p className="text-sm text-muted-foreground">Outbreaks, facilities, and case stats available over REST with JSON Patch support.</p>
             </div>
           </div>
