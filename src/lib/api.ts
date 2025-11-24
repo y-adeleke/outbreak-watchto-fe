@@ -51,7 +51,7 @@ const httpClient = new HttpClient(API_BASE_URL, API_KEY || undefined);
 
 export const apiClient = {
   // Outbreaks
-  getOutbreaks: () => httpClient.request<OutbreakListDto>("/outbreaks"),
+  getOutbreaks: () => httpClient.request<OutbreakListDto[]>("/outbreaks"),
   getOutbreakById: (id: number) => httpClient.request<OutbreakDetailDto>(`/outbreaks/${id}`),
   createOutbreak: (payload: OutbreakCreateUpdateDto) =>
     httpClient.request<OutbreakDetailDto>("/outbreaks", {
